@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SNSConnectTencentRebuild",
+    platforms: [.iOS(.v13)],
     products: [
         .library(name: "SNSConnectTencentRebuild", targets: ["SNSConnectTencentRebuildLink"]),
     ],
